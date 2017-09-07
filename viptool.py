@@ -17,7 +17,7 @@ class vipper:
         self.validate_args()
 
     def init_vars(self):
-        viptool_conf = '/etc/gogrid/viptool.conf'
+        viptool_conf = '/etc/somewhere/viptool.conf'
         config.read(viptool_conf)
         try:
             self.uname = config.get('viptool', 'user')
